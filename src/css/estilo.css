@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+
+header {
+    background-color: #afddfb;
+}
+
+header .logotipo {
+    width: 150px;
+}
+
+header .menu {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+.servicos,
+.contato {
+    background-color: #1d80c1;
+}
+
+main #servicos .paragrafo-servicos {
+    color: #ffffff;
+    width: 700px;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+}
+
+main #servicos .lista-servicos {
+    margin: 40px auto;
+    width: 135px;
+}
+
+main #servicos .item-lista-servicos {
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+    color: #fff;
+}
+
+main #contato .paragrafo-contato {
+    color: #fff;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main #contato .lista-contato {
+    margin: 40px auto 40px;
+    list-style: none;
+    width: 210px;
+}
+
+main #contato .item-lista-contato {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+main #contato .link-contato {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}

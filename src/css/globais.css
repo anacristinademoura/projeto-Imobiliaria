@@ -1,0 +1,80 @@
+.limita-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.paragrafo {
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+.link {
+    font-size: 18px;
+    color: #1d1d1d;
+    text-decoration: none;
+    border-bottom: 2px solid #1d1d1d;
+    margin: 0 10px;
+}
+
+.link:hover {
+    color: #1d80c1;
+    border-bottom: 2px solid #1d80c1;
+}
+
+span {
+    font-weight: bold;
+}
+
+h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+h2 {
+    color: #1c81c0;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.imagem {
+    width: 450px;
+}
+
+.texto-azul {
+    color: #1d80c1;
+}
+
+.texto-amarelo {
+    color: #fff81b;
+}
+
+.seta {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+
+    background-image: url('../imagens/seta.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
